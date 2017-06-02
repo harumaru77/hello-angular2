@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
 import {BookComponent} from './book-component/book.component';
+import {BookImageComponent} from './book-image-component/book-image.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
   declarations: [
     AppComponent,
-    BookComponent
+    BookComponent,
+    BookImageComponent
   ],
   bootstrap:    [ AppComponent ]
 })
